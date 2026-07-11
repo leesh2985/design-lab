@@ -27,8 +27,8 @@ const enterAnim = (delay = 0) => ({
 });
 
 const stats = [
-  { value: "4+", label: "Years" },
-  { value: "4+", label: "Major Projects" },
+  { value: "5+", label: "Years" },
+  { value: "4+", label: "Projects" },
   { value: "7+", label: "Skills" },
   { value: "∞", label: "Learning" },
 ];
@@ -69,7 +69,14 @@ const smoothScrollTo = (id: string, duration = 1200) => {
 
 export default function HeroSection() {
   return (
-    <Box sx={{ bgcolor: BG, position: "relative", overflow: "hidden" }}>
+    <Box
+      sx={{
+        bgcolor: BG,
+        position: "relative",
+        overflow: "hidden",
+        pt: "72px",
+      }}
+    >
       <Box
         sx={{
           position: "absolute",
