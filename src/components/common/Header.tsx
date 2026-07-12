@@ -8,9 +8,6 @@ import {
 } from "@mui/material";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
-const GOLD = "#E7B24A";
-const BG = "#0F172A";
-
 const Header = () => {
   const navigate = useNavigate();
   const location = useLocation();
