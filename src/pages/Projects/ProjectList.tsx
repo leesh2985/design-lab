@@ -38,6 +38,13 @@ const ProjectList = () => {
   const [selectedDesign, setSelectedDesign] = useState<Design | null>(null);
   const [currentImage, setCurrentImage] = useState(0);
 
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+  }, []);
+
   const labelMap: Record<string, string> = {
     uiDesign: "UI Design",
     publishing: "Publishing",

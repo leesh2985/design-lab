@@ -1,6 +1,17 @@
-import ksdCover from "../assets/images/Thumbnail/ksd-cover.svg";
+import aiPlatformProposalCover from "../assets/images/Thumbnail/ai-platform-proposal-cover.svg";
+import drugAiAdminCover from "../assets/images/Thumbnail/drugai-admin-cover.svg";
+import drugAiCover from "../assets/images/Thumbnail/drugai-cover.svg";
+import eaxdxManualCover from "../assets/images/Thumbnail/eaxdx-manual-cover.svg";
+import edspCover from "../assets/images/Thumbnail/edsp-cover.svg";
+import hdrcCover from "../assets/images/Thumbnail/hdrc-cover.svg";
+import ibkMobileIdCover from "../assets/images/Thumbnail/ibk-mobile-id-cover.svg";
 import kastleCover from "../assets/images/Thumbnail/kastle-cover.svg";
+import kdataCover from "../assets/images/Thumbnail/kdata-cover.svg";
 import kolmarCover from "../assets/images/Thumbnail/kolmar-cover.svg";
+import ksdCover from "../assets/images/Thumbnail/ksd-cover.svg";
+import smdcCover from "../assets/images/Thumbnail/smdc-cover.svg";
+import triptalkCover from "../assets/images/Thumbnail/triptalk-cover.svg";
+import ypsilonCover from "../assets/images/Thumbnail/ypsilon-cover.svg";
 
 const projects = [
   {
@@ -138,7 +149,7 @@ const projects = [
     description:
       "러닝 정보를 공유하는 커뮤니티 플랫폼으로, UI/UX 설계부터 프론트엔드 개발까지 전 과정을 수행했습니다.",
 
-    image: "",
+    image: hdrcCover,
 
     featured: true,
 
@@ -174,7 +185,7 @@ const projects = [
     description:
       "AI 플랫폼 구축 제안 발표용 PowerPoint 템플릿을 제작했습니다. 발표 자료의 일관성과 가독성을 높이기 위해 공통 레이아웃과 디자인 시스템을 구성했습니다.",
 
-    image: "",
+    image: aiPlatformProposalCover,
 
     featured: false,
 
@@ -214,7 +225,7 @@ const projects = [
     description:
       "기존 eAXDX 사용자 매뉴얼의 가독성과 시각적 일관성을 개선하기 위해 레이아웃과 스타일을 재구성한 리디자인 프로젝트입니다.",
 
-    image: "",
+    image: eaxdxManualCover,
 
     featured: false,
 
@@ -254,7 +265,7 @@ const projects = [
     description:
       "KDATA 위촉수락서 관리를 위한 모바일 웹 프로젝트로, 사용자 입력 흐름을 고려한 UI를 설계하고 퍼블리싱까지 담당했습니다.",
 
-    image: "",
+    image: kdataCover,
 
     featured: false,
 
@@ -294,7 +305,7 @@ const projects = [
     description:
       "내부망 환경에서 운영되는 고객사 전용 관리자 플랫폼의 UI를 개선하고 운영 및 유지보수를 수행하며 화면의 일관성과 사용성을 향상시킨 프로젝트입니다.",
 
-    image: "",
+    image: edspCover,
 
     featured: false,
 
@@ -333,7 +344,7 @@ const projects = [
     description:
       "IBK 모바일 신분증 서비스 기획안을 기반으로 사용자 흐름을 분석하고, 메인 및 서브 화면의 UI/UX를 설계한 프로젝트입니다.",
 
-    image: "",
+    image: ibkMobileIdCover,
 
     featured: false,
 
@@ -373,7 +384,7 @@ const projects = [
     description:
       "Drug.AI 관리자용 웹 플랫폼 프로젝트로, 데이터 관리와 모니터링을 위한 UI를 구현하고 데이터 흐름을 고려한 화면 구성을 통해 관리 효율성을 향상시켰습니다.",
 
-    image: "",
+    image: drugAiAdminCover,
 
     featured: false,
 
@@ -413,7 +424,7 @@ const projects = [
     description:
       "고객사 전용 데이터 탐색 웹 서비스로, 챗봇 인터페이스와 데이터 시각화 기반 Viewer의 UI를 구현하고 사용자 경험 향상을 위한 기능 개선 및 운영을 수행했습니다.",
 
-    image: "",
+    image: drugAiCover,
 
     featured: false,
 
@@ -456,7 +467,7 @@ const projects = [
     description:
       "새만금 자율운송 마켓플레이스 운영 프로젝트로, 기존 UI를 개선하고 신규 페이지를 설계·구현하며 서비스의 사용성과 완성도를 지속적으로 향상시켰습니다.",
 
-    image: "",
+    image: smdcCover,
 
     featured: false,
 
@@ -498,7 +509,7 @@ const projects = [
     description:
       "환경 데이터 관리 및 시각화를 위한 플랫폼 구축 프로젝트로, UX 기획부터 UI 설계, 퍼블리싱, 프론트엔드 개발까지 전 과정을 수행했습니다.",
 
-    image: "",
+    image: ypsilonCover,
 
     featured: false,
 
@@ -550,7 +561,7 @@ const projects = [
     description:
       "국내 여행의 추억과 경험을 공유하는 커뮤니티 플랫폼으로, React 기반 UI/UX 설계와 프론트엔드 개발을 협업으로 진행한 프로젝트입니다.",
 
-    image: "",
+    image: triptalkCover,
 
     featured: false,
 

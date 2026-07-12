@@ -1,8 +1,15 @@
 import { Box, Chip, Container, Stack, Typography } from "@mui/material";
 import { useParams } from "react-router-dom";
 import projects from "../../data/projects";
+import { useEffect } from "react";
 
 const ProjectDetail = () => {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "auto",
+    });
+  }, []);
   const { id } = useParams();
 
   const project = projects.find((item) => item.id === id);
