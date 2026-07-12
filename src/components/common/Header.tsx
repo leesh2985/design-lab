@@ -14,16 +14,27 @@ const Header = () => {
 
   const handleScroll = (id: string) => {
     if (location.pathname !== "/") {
-      navigate("/");
-      setTimeout(() => {
-        document.getElementById(id)?.scrollIntoView({
-          behavior: "smooth",
-        });
-      }, 100);
+      navigate("/", {
+        state: {
+          scrollTo: id,
+        },
+      });
       return;
     }
 
     document.getElementById(id)?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
+  const handleLogoClick = () => {
+    if (location.pathname !== "/") {
+      navigate("/");
+      return;
+    }
+
+    window.scrollTo({
+      top: 0,
       behavior: "smooth",
     });
   };
@@ -49,14 +60,14 @@ const Header = () => {
         >
           {/* Logo */}
           <Typography
-            component={Link}
-            to="/"
+            onClick={handleLogoClick}
             sx={{
               textDecoration: "none",
               color: "#fff",
               fontSize: "1.4rem",
               fontWeight: 800,
               letterSpacing: ".15em",
+              cursor: "pointer",
             }}
           >
             LSH
