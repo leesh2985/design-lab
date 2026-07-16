@@ -30,7 +30,7 @@ const projects = [
 
     featured: true,
 
-    category: "company", // company | personal | freelance
+    category: "company",
 
     section: "case-study",
 
@@ -47,6 +47,10 @@ const projects = [
 
     tech: ["React", "MUI", "Adobe XD", "GitLab"],
 
+    resources: {
+      visibility: "nda",
+    },
+
     responsibilities: [
       "화면정의서 기반 기존 UI 개선",
       "신규 관리자 화면 UI 디자인",
@@ -54,7 +58,6 @@ const projects = [
       "UI/UX 검수 및 품질 개선",
     ],
   },
-
   {
     id: "kastle",
 
@@ -91,6 +94,16 @@ const projects = [
 
     tech: ["Figma", "React", "TypeScript", "Tailwind CSS", "GitLab"],
 
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/yxp%EB%A6%AC%EB%89%B4%EC%node-id=01&t=XHlpwOC65yOry3GT1",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
+
     responsibilities: [
       "로그인 화면 UI 리뉴얼",
       "메인 화면 UI 리뉴얼",
@@ -98,7 +111,6 @@ const projects = [
       "React · TypeScript · Tailwind CSS 기반 화면 구현 및 퍼블리싱",
     ],
   },
-
   {
     id: "kolmar",
 
@@ -130,6 +142,16 @@ const projects = [
     },
 
     tech: ["Figma"],
+
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/IXRaAIDesign?node-id=01&t=KWngRj51Q9qRm7561",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
 
     responsibilities: [
       "기존 디자인 가이드 분석 및 적용",
@@ -165,6 +187,20 @@ const projects = [
     },
 
     tech: ["React", "TypeScript", "Firebase", "GitHub"],
+
+    resources: {
+      visibility: "public",
+
+      website: {
+        title: "Live Website",
+        url: "https://hdrc.vercel.app/",
+      },
+
+      github: {
+        title: "GitHub",
+        url: "https://github.com/leesh2985/Portfolio",
+      },
+    },
 
     responsibilities: [
       "커뮤니티 플랫폼 UI/UX 설계",
@@ -286,6 +322,16 @@ const projects = [
 
     tech: ["Figma", "HTML", "CSS", "JavaScript"],
 
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/hSN%EC%9C%84%EC%B4%89%EC%node-id=01&t=LWS4mkwX2bzPaLVs-1.",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
+
     responsibilities: [
       "기존 UI를 기반으로 화면 개선",
       "기획 요구사항에 따른 신규 페이지 UI 설계 및 디자인",
@@ -324,6 +370,16 @@ const projects = [
     },
 
     tech: ["Figma", "HTML", "CSS"],
+
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/GvN%EC%9D%B4%EB%85%B8%EC%node-id=08153&t=vFjf0db6megnhF021",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
 
     responsibilities: [
       "기존 관리자 플랫폼 UI 개선 및 유지보수",
@@ -365,6 +421,16 @@ const projects = [
 
     tech: ["Figma"],
 
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/TNt%EB%AA%A8%EB%B0%94%EC%node-id=01&t=vFjf0db6megnhF021",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
+
     responsibilities: [
       "서비스 기획안 분석 및 사용자 흐름 설계",
       "메인 페이지 UI/UX 설계 및 핵심 화면 구성",
@@ -405,6 +471,16 @@ const projects = [
 
     tech: ["Figma", "HTML", "CSS", "Git", "GitLab"],
 
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/8PJdrug-ai-admin?node-id=01&t=tqKbUrMbHNiWUQ8W1",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
+
     responsibilities: [
       "메인 파이프라인 화면 UI 설계 및 구현",
       "모니터링 기능을 위한 신규 페이지 설계 및 구현",
@@ -444,6 +520,16 @@ const projects = [
     },
 
     tech: ["React", "TypeScript", "MUI", "Figma", "Git", "GitLab"],
+
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/CsLdrug-ai?node-id=560&t=XNnUUF91NHmztIzI 1",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
 
     responsibilities: [
       "React(MUI) 기반 UI 구현 및 기능 개발",
@@ -488,6 +574,20 @@ const projects = [
 
     tech: ["Figma", "Git", "GitLab", "Material Icons"],
 
+    resources: {
+      visibility: "public",
+
+      website: {
+        title: "Live Website",
+        url: "https://smdc.jiat.re.kr/main/pageMain.do",
+      },
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/Tdc%EB%8D%B0%EC%9D%B4%ED%node-id=01&t=pycRanDlt1bpmS1A1",
+      },
+    },
+
     responsibilities: [
       "기존 UI 개선 및 운영·유지보수",
       "신규 페이지 UI 설계 및 화면 구성",
@@ -495,6 +595,14 @@ const projects = [
       "반응형 UI 적용 및 다양한 디바이스 대응",
       "웹 접근성을 고려한 UI 개선",
       "고객사 피드백을 반영한 콘텐츠 구조 및 레이아웃 개선",
+    ],
+
+    highlights: [
+      "메인 페이지 UI 개선",
+      "신규 서비스 페이지 설계",
+      "스플래시 화면 디자인",
+      "로고 및 아이콘 제작",
+      "반응형 레이아웃 적용",
     ],
   },
   {
@@ -539,6 +647,16 @@ const projects = [
       "Apache ECharts",
       "JointJS",
     ],
+
+    resources: {
+      visibility: "public",
+
+      figma: {
+        title: "View Figma",
+        url: "https://www.figma.com/design/Wn1node-id=01&m=dev&t=bB86MLPl5T4kuvhp-1",
+        note: "포트폴리오 공개를 위해 민감한 정보 및 내부 화면은 일부 수정·블러 처리하였습니다.",
+      },
+    },
 
     responsibilities: [
       "UX 기획 및 사용자 흐름 설계",
@@ -586,6 +704,25 @@ const projects = [
       "Axios",
       "Vite",
     ],
+
+    resources: {
+      visibility: "public",
+
+      website: {
+        title: "Live Website",
+        url: "https://triptalk.vercel.app/",
+      },
+
+      notion: {
+        title: "Project Documentation",
+        url: "https://antique-koala-cd8.notion.site/DEMO-DAY-TRIPTALK-0bd8366d33de4d7f85ea848a0f514bb0",
+      },
+
+      github: {
+        title: "GitHub",
+        url: "https://github.com/triptalk4/triptalk-frontend",
+      },
+    },
 
     responsibilities: [
       "사용자 흐름을 고려한 UI/UX 설계",
