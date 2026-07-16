@@ -529,6 +529,7 @@ const ProjectList = () => {
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
+                bgcolor: "#f3f3f3",
               }}
             >
               <Box
